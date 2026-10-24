@@ -1,0 +1,4 @@
+interface:
+  display_name: "可编辑口播工作室"
+  short_description: "本地克隆授权声音制作口播，支持分段试听、局部重做、停顿调整与版本回退"
+  default_prompt: "使用 $editable-voiceover 帮我用本人的声音制作可修改口播，先确认配音方案并生成小样。"

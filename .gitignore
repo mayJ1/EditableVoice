@@ -1,0 +1,51 @@
+# Python / local runtimes
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.cache/
+
+# Credentials / machine-specific configuration
+.env
+.env.*
+*.pem
+*.key
+runtime.local.json
+
+# Private voices, generated media, model weights and project state
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.opus
+*.m4a
+*.mp4
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.gguf
+*.zip
+voices/
+voice-data/
+models/
+projects/
+outputs/
+exports/
+revisions/
+voice.json
+manifest.json
+timeline.json
+source.txt
+.lock
+*.log
+*.db
+*.db-*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
